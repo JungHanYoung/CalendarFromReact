@@ -1,3 +1,7 @@
+html, body {
+  height: 100vh;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,3 +16,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+}
+
+.yearmonth {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.week {
+  display: flex;
+  justify-content: space-around;
+}
+
+.week .week-item {
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
