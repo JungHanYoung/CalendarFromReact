@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Calendar } from 'calendar'
-import { weeks } from './utils/utils';
 
 // const Container = styled.div`
 //     display: flex;
