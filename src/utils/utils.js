@@ -1,1 +1,1 @@
-export const weeks = ['Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat', 'Sun']
+export const weeks = ['일', '월', '화', '수', '목', '금', '토']

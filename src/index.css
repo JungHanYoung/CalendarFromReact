@@ -30,9 +30,22 @@ body{
 }
 
 .yearmonth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   margin: 10px 0;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.yearmonth .prevMonth {
+  line-height: 70%;
+  padding: 10px;
+}
+.yearmonth .nextMonth {
+  line-height: 70%;
+  padding: 10px;
 }
 
 .week {
